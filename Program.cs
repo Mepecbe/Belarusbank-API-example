@@ -95,7 +95,7 @@ namespace sss
             //Print
             foreach(BelarusbankExchangers.Exchanger ex in exchangers)
             {
-                Console.WriteLine($"Address {ex.name_type} {ex.name}  {ex.street_type}  {ex.street}  {ex.home_number} +  : {ex.filials_text}; Id {ex.filial_id}  ");
+                Console.WriteLine($"Address {ex.name_type} {ex.name}  {ex.street_type}  {ex.street}  {ex.home_number} : {ex.filials_text}; Id {ex.filial_id}  ");
             }
         }
     }
